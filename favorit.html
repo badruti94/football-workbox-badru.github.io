@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/mega-ball.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/img/mega-ball.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#000000">
+    <title>Football</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/materialize.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navigasi -->
+        <nav class="blue darken-2" role="navigation">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo" id="logo-container">Football</a>
+                <a href="#" class=" sidenav-trigger" data-target="nav-mobile">☰</a>
+
+                <ul class="topnav right hide-on-med-and-down">
+                    <li><a href="index.html" class="waves-effect">Home</a></li>
+                    <li><a href="favorit.html" class="waves-effect">Favorit</a></li>
+                </ul>
+                <ul class="sidenav" id="nav-mobile">
+                    <li><a href="index.html" class="waves-effect">Home</a></li>
+                    <li><a href="favorit.html" class="waves-effect">Favorit</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Akhir Navigasi -->
+    </header>
+    <main>
+        <div class="container" id="body-content">
+            <h4 class="center">Favorit</h4>
+            <br>
+            <br>
+            <br>
+            <h5>Tim Favorit</h5>
+            <div class="collection" id="tim">
+            </div>
+            <br><br>
+            <h5>Pemain Favorit</h5>
+            <div class="collection" id="pemain">
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <footer class="page-footer blue darken-2">
+        <div>
+            <div class="container">
+                © 2014 Copyright Dicoding
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery-2.1.4.min.js"></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/idb.js"></script>
+    <script src="./js/db.js"></script>
+    <script src="./js/favorit.js"></script>
